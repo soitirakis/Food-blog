@@ -1,0 +1,149 @@
+header nav{
+    background-color: white;
+}
+a.nav-link{
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+}
+a.nav-link.disabled{
+  color:black;
+  font-size: 25px;
+}
+.sidenav{
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  z-index: 1;
+  background-color:#111;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.sidenav a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+main div.container{
+  margin-top:100px;
+}
+.col-lg-4{
+  padding: 16px;
+}
+.card-deck{
+  margin-top:16px;
+}
+.card-deck .card{
+  border: 0px solid black;
+}
+a.card-link{
+  color:black;
+}
+a.card-link:hover{
+  color:grey;
+  opacity:0.85;
+}
+.h3, .h5, .p{
+  margin-top:25px;
+}
+.page-link{
+  border-style: none;
+  color: black;
+}
+.page-link:hover{
+  background-color: black;
+  color: white;
+}
+.page-link:active{
+  background-color: red;
+}
+.page-item.active .page-link{
+  background-color: black;
+  color:white;
+}
+.page-item.active .page-link:hover{
+  background-color: lightgrey;
+  color: black;
+}
+
+section.about{
+  margin: auto;
+}
+section.about h2{
+  margin: auto;
+  margin-top: 50%;
+}
+footer ul{
+  list-style-type: none;
+}
+footer ul li{
+  padding: 16px;
+}
+footer ul li:hover{
+  background-color: lightgrey;
+}
+footer ul li:nth-child(odd){
+  border-bottom: 1px solid lightgrey;
+}
+footer ul img{
+  margin-right: 10px;
+}
+footer span{
+  background-color: grey;
+  color: white;
+  margin-bottom: 16px;
+  padding: 0px 8px;
+  font-size:12px;
+}
+footer span.active{
+  background-color: black;
+  color:white;
+}
+
+div .container.upload_recipe{
+  margin-top: 7%;
+}
+
+.modal {
+	  display: none; /* Hidden by default */
+	  position: fixed; /* Stay in place */
+	  z-index: 1; /* Sit on top */
+	  padding-top: 100px; /* Location of the box */
+	  left: 0;
+	  top: 0;
+	  width: 100%; /* Full width */
+	  height: 100%; /* Full height */
+	  overflow: auto; /* Enable scroll if needed */
+	  background-color: rgb(0,0,0); /* Fallback color */
+	  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	}
+
+/* Modal Content */
+	.modal-content {
+	  background-color: #fefefe;
+	  margin: auto;
+	  padding: 20px;
+	  border: 1px solid #888;
+	  width: 80%;
+	}
+
+/* The Close Button */
+	.close {
+	  color: #aaaaaa;
+	  float: right;
+	  font-size: 28px;
+	  font-weight: bold;
+	}
+
+	.close:hover,
+	.close:focus {
+	  color: #000;
+	  text-decoration: none;
+	  cursor: pointer;
+	}

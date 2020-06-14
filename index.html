@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="urf-utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="src/main.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-inverse navbar-expand-lg fixed-top">
+      <div class="container">
+        <ul class="navbar-nav sidenav" id="mySidebar">
+          <li class="nav-item">
+            <a class="nav-link" onclick="w3_close()" href="javascript:void(0)">Close Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="w3_close()" href="#food">Food</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="w3_close()" href="#about-me">About</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" onclick="w3_open()">&#9776;</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">My Food</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Mail</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="card-deck" id="food">
+        <div class="card">
+          <a class="card-link" href="#">
+          <img class="card-img-top" src="img/sandwich.jpg">
+          <div class="card-body text-center">
+            <h3 class="card-title">The Perfect Sandwich A Real NYC Classic</h3>
+            <p class="card-text">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+        </a>
+        </div>
+        <div class="card">
+          <a class="card-link" href="#">
+          <img class="card-img-top" src="img/steak.jpg">
+          <div class="card-body text-center">
+            <h3 class="card-title">Let Me Tell You About This Steak</h3>
+            <p class="card-text">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+        </a>
+        </div>
+        <div class="card">
+          <a class="card-link" href="#">
+          <img class="card-img-top" src="img/cherries.jpg">
+          <div class="card-body text-center">
+            <h3 class="card-title">Cherries, interruped</h3>
+            <p class="card-text">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+        </a>
+        </div>
+        <div class="card">
+          <a class="card-link" href="#">
+          <img class="card-img-top" src="img/wine.jpg">
+          <div class="card-body text-center">
+            <h3 class="card-title">Once Again, Robust Wine and Vegetable Pasta</h3>
+            <p class="card-text">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+        </a>
+        </div>
+      </div>
+      <div class="card-deck">
+        <div class="card">
+          <a class="card-link" href="#">
+          <img class="card-img-top" src="img/popsicle.jpg">
+          <div class="card-body text-center">
+            <h3 class="card-title">All I Need Is a Popsicle</h3>
+            <p class="card-text">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+        </a>
+        </div>
+        <div class="card">
+          <a class="card-link" href="#">
+          <img class="card-img-top" src="img/salmon.jpg">
+          <div class="card-body text-center">
+            <h3 class="card-title">Salmon For Your Skin</h3>
+            <p class="card-text">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+        </a>
+        </div>
+        <div class="card">
+          <a class="card-link" href="#">
+          <img class="card-img-top" src="img/sandwich.jpg">
+          <div class="card-body text-center">
+            <h3 class="card-title">The Perfect Sandwich, A Real Classic</h3>
+            <p class="card-text">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+        </a>
+        </div>
+        <div class="card">
+          <a class="card-link" href="#">
+          <img class="card-img-top" src="img/croissant.jpg">
+          <div class="card-body text-center">
+            <h3 class="card-title">Le French</h3>
+            <p class="card-text">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+        </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="container">
+  <nav aria-label="Page pagination">
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      <li class="page-item active">
+        <a class="page-link" href="#">1</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">3</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+        <h2 class="col-sm-12 text-center p-16" id="about-me">About Me, The Food Man</h2>
+        <img src="img/chef.jpg" class="img-fluid mx-auto d-block">
+        <div class="caption">
+          <h3 class="h3">I am Who I Am!</h3>
+          <h5 class="h5">With Passion For Real, Good Food</h5>
+          <p class="p">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and
+            an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.
+            Praesant tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+            congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+            condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <h3>FOOTER</h3>
+          <p>Praesant tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,
+            ultricies congue gravida diam non fringilla.</p>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <h3>BLOG POSTS</h3>
+          <ul>
+            <li><img src="img/workshop.jpg" class="float-left" style="width:50px"><h6>Lorem</h6><p>Sed Mattis nunc</p></li>
+            <li><img src="img/gondol.jpg" class="float-left" style="width:50px"><h6>Ipsum</h6><p>Praes tinci sed</p></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-4">
+          <h3>POPULAR TAGS</h3>
+          <p>
+          <span class="active">Travel</span>
+          <span>New York</span>
+          <span>Dinner</span>
+          <span>Salmon</span>
+          <span>France</span>
+          <span>Drinks</span>
+          <span>Ideas</span>
+          <span>Flavors</span>
+          <span>Cuisine</span>
+          <span>Chicken</span>
+          <span>Dressin</span>
+          <span>Fried</span>
+          <span>Fish</span>
+          <span>Duck</span>
+          <p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

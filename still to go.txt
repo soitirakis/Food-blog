@@ -1,0 +1,17 @@
+//TODO
+
+//pagination buttons to display current page
+
+//change page using ajax without reloading
+
+//image gallery html for the recipes, slide show gallery
+
+//admin section
+  //login FORM
+  //table to update the food_blog(id, picture, title, description, recipe)
+  //buttons - modify, delete
+    //pop up message that the data has been deleted
+    //pop up new edit window
+  //upload new recipes - alert if forgot parts of message
+    //pop up message if succed or not
+<form method="post" action=" '.$_SERVER["PHP_SELF"].'"></form>
